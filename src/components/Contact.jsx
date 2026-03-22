@@ -13,7 +13,7 @@ const Contact = () => {
 
     try {
       // Replace with your Formspree endpoint after signing up at formspree.io
-      const response = await fetch('https://formspree.io/f/your_id_here', {
+      const response = await fetch('https://formspree.io/f/mvzwnedj', {
         method: 'POST',
         body: formData,
         headers: {
